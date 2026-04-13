@@ -37,10 +37,6 @@ working-student/
 │   └── mocks/                   # Local MCP stubs for testing without real services
 │
 ├── observability/               # Monitoring & Analytics
-│   ├── metrics.py               # Prometheus/OpenTelemetry: success_rate, cost, latency
-│   ├── tracing.py               # Distributed tracing (session → step → LLM call → MCP)
-│   ├── analytics.py             # Use case clustering, feature gap detection
-│   └── escalation.py            # Confidence threshold monitor, auto-ticket creator
 │
 ├── config/                      # Environment & Feature Flags
 │   ├── settings.py              # Pydantic BaseSettings, env var mapping
