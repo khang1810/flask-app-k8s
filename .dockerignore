@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+*.egg-info
+.eggs
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache
+.coverage
+htmlcov
+
+# CI/CD
+.github
+
+# Documentation
+*.md
+!requirements*.txt
+
+# Kubernetes
+kubeconfig.yaml
+
+# Qwen
+.qwen
