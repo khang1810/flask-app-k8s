@@ -19,7 +19,7 @@ APP_NAME = os.getenv('APP_NAME', 'Flask-K8s-App')
 @app.route('/')
 def home():
     logger.info("Home endpoint accessed")
-    return f"Hello from {APP_NAME} on Kubernetes!"
+    return f"Hello from {APP_NAME} on Kubernetes 2!"
 
 @app.route('/health')
 def health():
